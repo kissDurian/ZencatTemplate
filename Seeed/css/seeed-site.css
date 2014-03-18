@@ -1,0 +1,79 @@
+﻿body {
+    padding-top: 55px;
+    font-family: 'Myriad Pro';
+}
+/*--系统导航--*/
+.navbar-nav li a {
+    color: #808080;
+    font-size: 29px;
+}
+
+nav .right-link a {
+    font-size: 14px;
+    color: #595757;
+    font-weight: normal;
+}
+nav .right-link a:hover {
+        color: #1abc9c;
+}
+.navbar-default {
+    background-color: #FFF;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    min-width: 100%;
+    margin-top: 0px;
+    width: 500px;
+    background-color: #FFF;
+    border-top-style: solid;
+    border-top-color: #1abc9c;
+    box-shadow: 0 0 3px #000;
+    border-radius: 0px;
+}
+.dropdown-menu .nav a {
+    font-size: 12px;
+}
+.navbar-right{
+    font-size:14px;
+}
+/*--搜索区域--*/
+.search button {
+}
+
+.nav-menu {
+    color: #FFFFFF;
+    background-color: #595757;
+    font-size:14px;
+    height:42px;
+}
+.nav-menu:hover {
+        color: #33CC99;
+}
+.search .dropdown-toggle {
+    background-color: #FFF;
+    color: #000;
+}
+.account{
+    color: #000;
+    font-size:14px;
+    width:100px;
+}
+/*category*/
+aside .list-group{
+    font-size:14px;
+    padding:0px;
+
+}
+.present .list-group{
+    font-size:14px;
+}
+.tile{
+    background-color:#FFF;
+    border-radius:4px;
+}
+.tile:hover{
+    background-color:rgba(137, 249, 198, 0.33);
+}
+.tile .btn-block{
+    display:none;
+}
